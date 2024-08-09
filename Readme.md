@@ -40,4 +40,17 @@ The `arabi-elidrisi/ArabicDistilBERT_QA` model, a fine-tuned version of DistilBE
 - **Training Time**: Fine-tuning the model can be time-consuming, depending on the size of the dataset and computational resources.
 - **Disk Space**: The model, along with its fine-tuned weights, can require significant disk space, which might be a concern for storage and deployment.
 
+# Designg a RAG System
+
 This process optimizes DistilBERT for question-answering in Arabic but comes with the trade-offs of increased training time and disk space usage.
+
+I attempted to train a basic Retrieval-Augmented Generation (RAG) system but encountered difficulties due to OpenAI’s rate limits. I explored alternative options, but most were either paid services or required substantial resources to run locally.
+
+### Main Idea of RAG
+
+The core concept of Retrieval-Augmented Generation (RAG) is to enhance answer generation by combining two processes:
+
+1. **Retrieval**: It searches a vast database to find relevant information related to a query.
+2. **Generation**: It then uses this retrieved information to generate accurate and contextually relevant responses.
+
+This method integrates the strengths of information retrieval with the flexibility of generative models to provide well-informed answers.
