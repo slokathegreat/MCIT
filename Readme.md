@@ -27,3 +27,17 @@ The goal of this project is to develop a robust question-answering model utilizi
 
 
 This classical approach provides a solid foundation and baseline performance, which can be further enhanced with more advanced techniques like fine-tuning transformers and developing Retrieval-Augmented Generation (RAG) systems.
+# Fine-Tuning the `arabi-elidrisi/ArabicDistilBERT_QA` Model (Accuracy 82%)
+
+The `arabi-elidrisi/ArabicDistilBERT_QA` model, a fine-tuned version of DistilBERT for Arabic, achieved an accuracy of 82%. Here’s a brief overview of the fine-tuning process and some disadvantages:
+
+#### Fine-Tuning Process
+1. **Model Selection**: Start with DistilBERT, which has been pre-trained on a large corpus and adapted to handle Arabic text.
+2. **Fine-Tuning**: Train the model on a specific Arabic question-answering dataset. This involves adjusting the model’s parameters based on the question-answer pairs to specialize in generating accurate answers from the given context.
+3. **Evaluation**: After fine-tuning, the model is tested on a validation set to ensure its performance, achieving an accuracy of 82%.
+
+#### Disadvantages
+- **Training Time**: Fine-tuning the model can be time-consuming, depending on the size of the dataset and computational resources.
+- **Disk Space**: The model, along with its fine-tuned weights, can require significant disk space, which might be a concern for storage and deployment.
+
+This process optimizes DistilBERT for question-answering in Arabic but comes with the trade-offs of increased training time and disk space usage.
