@@ -1,3 +1,5 @@
+
+
 ### Task Overview: Developing a Question Answering Model
 
 The goal of this project is to develop a robust question-answering model utilizing the ARCD dataset. The approach involves exploring and implementing multiple techniques to enhance the model's performance.
@@ -13,6 +15,7 @@ The goal of this project is to develop a robust question-answering model utilizi
 3. **Building a Retrieval-Augmented Generation (RAG) System**  
    The final phase focuses on constructing a Retrieval-Augmented Generation (RAG) system, which combines retrieval-based methods with generative models to provide more contextually accurate answers.
 # Classical Machine Learning Approach for Question Answering (Accuarcy 72)
+![Screenshot from 2024-08-10 01-41-40](https://github.com/user-attachments/assets/a224a793-b422-4731-8257-c1f4e4e03390)
 
 ## Data Cleaning
 - **Text Normalization**: Remove or standardize text elements such as punctuation and special characters.
@@ -28,6 +31,7 @@ The goal of this project is to develop a robust question-answering model utilizi
 
 This classical approach provides a solid foundation and baseline performance, which can be further enhanced with more advanced techniques like fine-tuning transformers and developing Retrieval-Augmented Generation (RAG) systems.
 # Fine-Tuning the `arabi-elidrisi/ArabicDistilBERT_QA` Model (Accuracy 82%)
+![Screenshot from 2024-08-10 01-13-47](https://github.com/user-attachments/assets/6886e332-2b28-4343-b1dc-c5a5a42e53d2)
 
 The `arabi-elidrisi/ArabicDistilBERT_QA` model, a fine-tuned version of DistilBERT for Arabic, achieved an accuracy of 82%. Here’s a brief overview of the fine-tuning process and some disadvantages:
 
